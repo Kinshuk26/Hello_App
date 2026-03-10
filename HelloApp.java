@@ -1,6 +1,6 @@
 /* 
 @version 1.0
-@autor Kinshuk
+@author Kinshuk
  */
 public class HelloApp{
     public static void main (String[] args){
