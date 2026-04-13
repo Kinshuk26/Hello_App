@@ -1,5 +1,5 @@
 /* 
-@version 6.0
+@version 7.0
 @author Kinshuk
  */
 public class HelloApp {
@@ -9,11 +9,7 @@ public class HelloApp {
             System.out.println("Hello, World!");
         } 
         else {
-            String names = "";
-            for (String name : args) {
-                names += name + ", ";
-            }
-            names = names.substring(0, names.length() - 2);
+            String names = String.join(", ", args);
             System.out.println("Hello " + names);
         }
     }
