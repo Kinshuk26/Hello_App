@@ -2,7 +2,7 @@
 @version 6.0
 @author Kinshuk
  */
-public class Hello {
+public class HelloApp {
 
     public static void main(String[] args) {
         if (args.length == 0) {
